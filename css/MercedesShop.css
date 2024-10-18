@@ -1,0 +1,162 @@
+
+.LaSection{
+    background-color: rgb(63, 63, 63);
+}
+
+nav{
+    background-color: rgba(33,33,33,255);
+}
+
+h1 img{
+    height: 40px;
+    width: 100%;
+}
+
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+.bg-image{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+ }
+
+ .actualité1{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80px;
+ }
+
+.articleSportive{
+    border: solid black 1px ;
+    width: 40%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 40px 10px;
+    
+}
+
+.articleSportive img{
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.LS{
+    margin-left: 48px;
+}
+
+.groupe{
+        display: flex;
+}
+
+
+
+.DivFooterGenerale {
+    color: #FAE5D1;
+    background-color: rgb(33, 33, 33);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer a {
+    color: #FAE5D1;
+    /* ici je change la couleur des liens */
+}
+
+footer li {
+    padding: 10px;
+    /* j'espace les elements de la liste */
+}
+
+footer img {
+    width: 80px;
+    border-radius: 10px;
+    /* je change la taille et j'arrondie la bordure de mon image */
+}
+
+.divFooterImg {
+    /* pour placer l'image entre le background de couleur
+    marron et le vide, j'utilise le position relative 
+    avec le top 40px et le left0px. On le retrouve bien
+    au centre entre le fond et le vide */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 0px;
+
+}
+
+
+.reseau p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+/* j'aligne le "nous suivre" au centre de là où il se trouce
+avec les petits logos */
+.reseau,
+.reseau i {
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+/* enfin, je pousse le copyright en bas a droite */
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 33, 33);
+    color: #FAE5D1;
+    position: relative;
+    padding: 0px 70px 20px 0px;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .LaSection{
+        text-align: center;
+    }
+    
+.groupe{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+
+
+}
+
+.articleSportive{
+    width: 100%;
+}
+
+.text-light{
+    font-size: 30px !important;
+}
+
+h3{
+    margin: 0 !important;
+   
+}  
+
+}
+
